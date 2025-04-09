@@ -4,16 +4,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>uk.kwhitlock.dogapi</groupId>
-  <artifactId>.</artifactId>
+  <artifactId>dogapi</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>dogapi</name>
+  <name>DogAPI</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>17</maven.compiler.release>
+    <maven.compiler.release>21</maven.compiler.release>
   </properties>
 
   <dependencyManagement>
