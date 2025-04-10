@@ -38,9 +38,12 @@ jobs:
           path: target/dogapi-1.0-SNAPSHOT.jar
 
   release:
+  
     name: release
+    needs: package
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
+    
     steps:
       - name: download artifact
         uses: actions/download-artifact@v4
